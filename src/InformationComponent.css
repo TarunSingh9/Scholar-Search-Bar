@@ -1,0 +1,56 @@
+/* Add this CSS to style your component */
+
+.info-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tabs {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.active {
+    background-color: #2980b9;
+  }
+  
+  .content {
+    overflow: hidden;
+  }
+  
+  .information,
+  .syllabus {
+    display: none;
+  }
+  
+  .information h2,
+  .syllabus h2 {
+    color: #333;
+  }
+  
+  .information p,
+  .syllabus p {
+    line-height: 1.5;
+  }
+  
+  /* Show the active tab content */
+  .information.active,
+  .syllabus.active {
+    display: block;
+  }
+  

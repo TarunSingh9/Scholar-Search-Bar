@@ -1,0 +1,25 @@
+/* HeaderComponent.module.css */
+/* HeaderComponent.css */
+/* HeaderComponent.css */
+.header {
+    background-color: #f3a268;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    display: flex; /* Use flexbox to align elements horizontally */
+    align-items: center;
+    border: bold black; /* Vertically center items within the header */
+  }
+  
+  .header img {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    text-decoration: underline; /* Remove the default margin on the h1 element */
+   
+  }
+  

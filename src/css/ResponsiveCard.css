@@ -1,0 +1,35 @@
+.responsive-card-container{
+    background-color: rgb(236, 209, 145);
+}
+
+.cards-container{
+    align-items: flex;
+}
+/* Add this CSS to your existing CSS file or create a new one */
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #2980b9;
+    }
+  }
+  
+  .h2{
+    font-size: larger;
+    text-align: center;
+  }

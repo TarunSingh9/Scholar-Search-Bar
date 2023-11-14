@@ -1,0 +1,70 @@
+/* linkage.css */
+
+/* Page styling */
+.link-page {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .link-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .link-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .link-item {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 220px;
+    margin: 20px;
+    transition: transform 0.2s;
+  }
+  
+  .link-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .link-item img {
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
+  }
+  
+  .link-item h2 {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .link-item a {
+    display: block;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .link-item a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header styles */
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  

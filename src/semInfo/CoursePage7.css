@@ -1,0 +1,22 @@
+.course-page-7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Set your desired background color */
+  }
+  
+  .sorry-content {
+    text-align: center;
+  }
+  
+  .sorry-content h1 {
+    font-size: 24px;
+    color: #ff0000; /* Set your desired text color */
+  }
+  
+  .sorry-content p {
+    font-size: 18px;
+    color: #555; /* Set your desired text color */
+  }
+  

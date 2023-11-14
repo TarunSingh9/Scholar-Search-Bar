@@ -1,0 +1,34 @@
+.middle-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-color: #f2f2f2;
+}
+
+.image-container {
+  width: 50%;
+  max-width: 400px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.text-content {
+  width: 50%;
+  padding: 20px;
+}
+
+.text-content h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.text-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
